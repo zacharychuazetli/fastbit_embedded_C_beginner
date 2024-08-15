@@ -1,0 +1,5 @@
+09:04:54 **** Clean-only build of configuration Debug for project arrays ****
+rm -rf main.o main.d arrays.exe 
+
+09:04:54 Build Finished. 0 errors, 0 warnings. (took 327ms)
+
