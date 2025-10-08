@@ -60,6 +60,23 @@ Discarded input sections
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
  .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
+ .group         0x00000000        0xc ./Src/main.o
  .text          0x00000000        0x0 ./Src/main.o
  .data          0x00000000        0x0 ./Src/main.o
  .bss           0x00000000        0x0 ./Src/main.o
@@ -717,9 +734,9 @@ LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a
 
-.debug_info     0x00000000       0xb7
- .debug_info    0x00000000       0x87 ./Src/main.o
- .debug_info    0x00000087       0x30 ./Startup/startup_stm32c031c6tx.o
+.debug_info     0x00000000       0xc5
+ .debug_info    0x00000000       0x95 ./Src/main.o
+ .debug_info    0x00000095       0x30 ./Startup/startup_stm32c031c6tx.o
 
 .debug_abbrev   0x00000000       0x6b
  .debug_abbrev  0x00000000       0x47 ./Src/main.o
@@ -738,24 +755,41 @@ LOAD C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x00000013       0x19 ./Startup/startup_stm32c031c6tx.o
 
-.debug_macro    0x00000000      0xf46
- .debug_macro   0x00000000       0x63 ./Src/main.o
- .debug_macro   0x00000063      0xa96 ./Src/main.o
- .debug_macro   0x00000af9       0x22 ./Src/main.o
- .debug_macro   0x00000b1b       0x8e ./Src/main.o
- .debug_macro   0x00000ba9       0x51 ./Src/main.o
- .debug_macro   0x00000bfa      0x103 ./Src/main.o
- .debug_macro   0x00000cfd       0x6a ./Src/main.o
- .debug_macro   0x00000d67      0x1df ./Src/main.o
+.debug_macro    0x00000000     0x1768
+ .debug_macro   0x00000000      0x10f ./Src/main.o
+ .debug_macro   0x0000010f      0xa96 ./Src/main.o
+ .debug_macro   0x00000ba5       0x22 ./Src/main.o
+ .debug_macro   0x00000bc7       0x5b ./Src/main.o
+ .debug_macro   0x00000c22       0x24 ./Src/main.o
+ .debug_macro   0x00000c46       0x94 ./Src/main.o
+ .debug_macro   0x00000cda       0x43 ./Src/main.o
+ .debug_macro   0x00000d1d       0x34 ./Src/main.o
+ .debug_macro   0x00000d51       0x16 ./Src/main.o
+ .debug_macro   0x00000d67       0x57 ./Src/main.o
+ .debug_macro   0x00000dbe       0x9e ./Src/main.o
+ .debug_macro   0x00000e5c      0x369 ./Src/main.o
+ .debug_macro   0x000011c5      0x10b ./Src/main.o
+ .debug_macro   0x000012d0       0x10 ./Src/main.o
+ .debug_macro   0x000012e0       0x16 ./Src/main.o
+ .debug_macro   0x000012f6       0x43 ./Src/main.o
+ .debug_macro   0x00001339       0x34 ./Src/main.o
+ .debug_macro   0x0000136d       0x10 ./Src/main.o
+ .debug_macro   0x0000137d       0x58 ./Src/main.o
+ .debug_macro   0x000013d5       0x8e ./Src/main.o
+ .debug_macro   0x00001463       0x1c ./Src/main.o
+ .debug_macro   0x0000147f      0x177 ./Src/main.o
+ .debug_macro   0x000015f6       0x16 ./Src/main.o
+ .debug_macro   0x0000160c       0x16 ./Src/main.o
+ .debug_macro   0x00001622      0x146 ./Src/main.o
 
-.debug_line     0x00000000      0x488
- .debug_line    0x00000000      0x40d ./Src/main.o
- .debug_line    0x0000040d       0x7b ./Startup/startup_stm32c031c6tx.o
+.debug_line     0x00000000      0x5b5
+ .debug_line    0x00000000      0x53a ./Src/main.o
+ .debug_line    0x0000053a       0x7b ./Startup/startup_stm32c031c6tx.o
 
-.debug_str      0x00000000     0x3b1d
- .debug_str     0x00000000     0x3ade ./Src/main.o
-                               0x3c39 (size before relaxing)
- .debug_str     0x00003ade       0x3f ./Startup/startup_stm32c031c6tx.o
+.debug_str      0x00000000     0x6a9a
+ .debug_str     0x00000000     0x6a5b ./Src/main.o
+                               0x6b66 (size before relaxing)
+ .debug_str     0x00006a5b       0x3f ./Startup/startup_stm32c031c6tx.o
                                  0x82 (size before relaxing)
 
 .comment        0x00000000       0x43

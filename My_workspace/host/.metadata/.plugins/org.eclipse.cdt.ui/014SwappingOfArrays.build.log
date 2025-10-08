@@ -1,0 +1,6 @@
+12:20:28 **** Incremental Build of configuration Debug for project 014SwappingOfArrays ****
+Info: Internal Builder is used for build
+gcc -o 014SwappingOfArrays.exe main.o 
+
+12:20:28 Build Finished. 0 errors, 0 warnings. (took 346ms)
+

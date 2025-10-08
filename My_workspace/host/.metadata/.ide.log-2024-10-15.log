@@ -1,0 +1,10 @@
+2024-10-15 08:08:34,220 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 8:08:34.039 ERROR Chromium process exit code: -2,147,483,645
+2024-10-15 08:08:34,349 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-10-15 08:08:34,469 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 8:08:34.468 ERROR Crash dump dir: C:\Users\zchua\AppData\Local\JxBrowser\7.38.2\CrashReports
+2024-10-15 08:08:34,470 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-10-15 08:08:34,492 [ERROR] WebApp:397 - JxBrowser engine crashed! Exit code: -2147483645
+2024-10-15 08:59:23,445 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-15 08:59:25,447 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-15 08:59:27,449 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-15 08:59:28,868 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2024-10-15 08:59:28,869 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

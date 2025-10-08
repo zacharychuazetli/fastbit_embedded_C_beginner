@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 22, 2024
+ *      Author: zchua
+ */
+
+#include<stdio.h>
+
+int main()
+{
+	char data = 100;
+	printf("value of data is : %d\n", data);
+	printf("address of the variable data is :%p\n", &data);
+
+
+	return 0;
+}

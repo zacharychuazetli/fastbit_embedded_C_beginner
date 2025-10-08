@@ -1,0 +1,11 @@
+14:53:30 **** Incremental Build of configuration Debug for project 001VariableScope ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:9: warning: 'my_var' is used uninitialized in this function [-Wuninitialized]
+   26 |  my_var = my_var + 10;
+      |  ~~~~~~~^~~~~~~~~~~~~
+gcc -o 001VariableScope.exe main.o 
+
+14:53:31 Build Finished. 0 errors, 1 warnings. (took 659ms)
+

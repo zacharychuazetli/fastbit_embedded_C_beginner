@@ -1,0 +1,13 @@
+2024-10-10 02:11:40,721 [WARN] CheckConnectionManager:291 - Warning during Server Connection :  timeout Connect to sw-center.st.com:443 [sw-center.st.com/203.121.59.234, sw-center.st.com/203.121.59.208] failed: Connect timed out
+2024-10-10 02:11:42,757 [WARN] CheckConnectionManager:291 - Warning during Server Connection :  timeout Connect to sw-center.st.com:443 [sw-center.st.com/203.121.59.234, sw-center.st.com/203.121.59.208] failed: Connect timed out
+2024-10-10 02:11:42,763 [INFO] MainUpdater:2873 - connection check result : 22
+2024-10-10 02:11:44,288 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to false
+2024-10-10 02:11:44,295 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-10-10 02:11:44,296 [INFO] MultiScanPanel:204 - Proxy status is invalid
+2024-10-10 02:11:44,297 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-10-10 02:11:45,480 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2024-10-10 02:11:48,420 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-10-10 02:11:48,420 [INFO] MultiScanPanel:204 - Proxy status is invalid
+2024-10-10 02:11:48,501 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2024-10-10 02:11:50,535 [INFO] BoardResultTable:719 - Unmark Board STM32F407G-DISC1 as favorite
+2024-10-10 02:11:51,867 [INFO] BoardResultTable:719 - Mark Board STM32F407G-DISC1 as favorite

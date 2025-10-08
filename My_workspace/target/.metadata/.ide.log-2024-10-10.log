@@ -1,0 +1,34 @@
+2024-10-10 02:12:12,010 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:12:14,029 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:12:16,034 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:12:16,044 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Connect timed out
+2024-10-10 02:12:21,051 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Connect timed out
+2024-10-10 02:12:26,065 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Connect timed out
+2024-10-10 02:12:31,067 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Connect timed out
+2024-10-10 02:12:36,075 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Connect timed out
+2024-10-10 02:12:36,088 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-10-10 02:12:36,096 [INFO] ApiDb:448 - Save user favorites file C:\Users\zchua/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-10-10 02:12:36,096 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-10-10 02:12:36,099 [INFO] ApiDb:448 - Save user favorites file C:\Users\zchua/.stm32cubeide/favorites.boards.txt: 2 item(s)
+2024-10-10 02:12:36,100 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-C031C6, STM32F407G-DISC1]
+2024-10-10 02:15:40,996 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:15:43,000 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:15:45,016 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:18:31,213 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:18:33,215 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:18:35,217 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:07,340 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:09,343 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:11,345 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:13,375 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:15,376 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:20:17,380 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:21:23,445 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:21:25,447 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:21:27,450 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:01,183 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:03,185 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:05,187 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:10,891 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:12,893 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2024-10-10 02:23:14,895 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out

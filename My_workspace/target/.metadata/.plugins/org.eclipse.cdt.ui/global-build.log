@@ -1,17 +1,21 @@
-10:07:31 **** Build of configuration Debug for project 000TestProject ****
+03:32:48 **** Incremental Build of configuration Debug for project 011KeyPadInterfacing ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m0plus -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32c031c6tx.d" -MT"Startup/startup_stm32c031c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32c031c6tx.o" "../Startup/startup_stm32c031c6tx.s"
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_C031C6 -DSTM32 -DSTM32C0 -DSTM32C031C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_C031C6 -DSTM32 -DSTM32C0 -DSTM32C031C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
-arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_C031C6 -DSTM32 -DSTM32C0 -DSTM32C031C6Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
-arm-none-eabi-gcc -o "000TestProject.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\zchua\Embedded-C\My_workspace\target\000TestProject\STM32C031C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="000TestProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 000TestProject.elf
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "011KeyPadInterfacing.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\zchua\Embedded-C\My_workspace\target\011KeyPadInterfacing\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="011KeyPadInterfacing.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 011KeyPadInterfacing.elf
  
-arm-none-eabi-size  000TestProject.elf 
-arm-none-eabi-objdump -h -S 000TestProject.elf  > "000TestProject.list"
+arm-none-eabi-size  011KeyPadInterfacing.elf 
+arm-none-eabi-objdump -h -S 011KeyPadInterfacing.elf  > "011KeyPadInterfacing.list"
    text	   data	    bss	    dec	    hex	filename
-    448	      0	   1568	   2016	    7e0	000TestProject.elf
+   4288	     92	   1900	   6280	   1888	011KeyPadInterfacing.elf
 Finished building: default.size.stdout
  
-Finished building: 000TestProject.list
+Finished building: 011KeyPadInterfacing.list
+ 
+03:33:04 **** Incremental Build of configuration Debug for project 011KeyPadInterfacing ****
+make -j8 all 
+arm-none-eabi-size  011KeyPadInterfacing.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4288	     92	   1900	   6280	   1888	011KeyPadInterfacing.elf
+Finished building: default.size.stdout
  

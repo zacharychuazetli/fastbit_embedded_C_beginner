@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:VariableScope.exe,org.eclipse.launchbar.core.descriptorType.default\:002AddressOfVariables.exe,org.eclipse.launchbar.core.descriptorType.default\:003Math.exe,org.eclipse.launchbar.core.descriptorType.default\:004FloatAndDouble.exe,org.eclipse.launchbar.core.descriptorType.default\:005Average.exe,org.eclipse.launchbar.core.descriptorType.default\:006Ascii.exe,org.eclipse.launchbar.core.descriptorType.default\:007floatCharge.exe,org.eclipse.launchbar.core.descriptorType.default\:008Pointers.exe,org.eclipse.launchbar.core.descriptorType.default\:000TestProject.exe,org.eclipse.launchbar.core.descriptorType.default\:009ifelseBiggestOfTwo.exe,org.eclipse.launchbar.core.descriptorType.default\:010bitWiseEvenOdd.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:VariableScope.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:VariableScope.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

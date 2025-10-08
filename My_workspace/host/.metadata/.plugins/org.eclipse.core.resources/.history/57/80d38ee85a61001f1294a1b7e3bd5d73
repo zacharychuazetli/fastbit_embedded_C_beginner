@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 22, 2024
+ *      Author: zchua
+ */
+
+#include<stdio.h>
+
+long long int g_data = 0xFFFEABCD11112345;
+
+int main()
+{
+	char data = 100;
+	printf("value of data is : %d\n", data);
+	printf("address of the variable data is :%p\n", &data);
+
+	//create pointer variable and store the address of the data variable
+	char* pData = &data;
+	char value = *pData;
+	printf("read value is: %d\n", value);
+
+	//perform write operation to the pointer to store the value of 65
+	*pData = 65;
+	printf("value of data is : %d\n", data);
+
+	printf("%d\n", sizeof(long long));
+
+	long long int *pG_data;
+	pG_data = (long long int*)&g_data;
+	printf("value at address %p is : %I64X\n", pG_data, *pG_data);
+
+
+
+	return 0;
+}

@@ -1,0 +1,10 @@
+18:20:02 **** Build of configuration Debug for project 009Packed_Vs_nonPacked ****
+make -j8 all 
+arm-none-eabi-size  009Packed_Vs_nonPacked.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5008	     92	   1908	   7008	   1b60	009Packed_Vs_nonPacked.elf
+Finished building: default.size.stdout
+ 
+
+18:20:02 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

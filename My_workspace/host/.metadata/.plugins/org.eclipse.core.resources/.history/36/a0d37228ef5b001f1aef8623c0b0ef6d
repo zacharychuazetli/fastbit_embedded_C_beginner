@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include "math.h"
+
+int main()
+{
+	printf("%d", sizeof(int));
+//	printf("Add: %d\n", math_add(0x))
+	return 0;
+}

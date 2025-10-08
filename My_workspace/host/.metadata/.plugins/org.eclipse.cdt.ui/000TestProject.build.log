@@ -1,7 +1,14 @@
-09:51:31 **** Rebuild of configuration Debug for project 000TestProject ****
+20:33:08 **** Incremental Build of configuration Debug for project 000TestProject ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:26:4: warning: operation on 'a' may be undefined [-Wsequence-point]
+   26 |  a = 0 ? (a<9) : a++;
+      |  ~~^~~~~~~~~~~~~~~~~
+..\main.c:25:6: warning: unused variable 'b' [-Wunused-variable]
+   25 |  int b = 6;
+      |      ^
 gcc -o 000TestProject.exe main.o 
 
-09:51:32 Build Finished. 0 errors, 0 warnings. (took 772ms)
+20:33:08 Build Finished. 0 errors, 2 warnings. (took 510ms)
 
